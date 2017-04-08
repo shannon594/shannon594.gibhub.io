@@ -502,11 +502,6 @@ margin-left: 10%;
   background-color: #ffffff;
   z-index: 9999;
   }
-  .navbar-brand {
-    padding:0px 10px 10px 40px;
-    margin-top: -17px;
-    z-index: 9999;
-  }
   .inscape_drop_items{
     /* background-color: #f8f8f8; */
     background-color: transparent;
@@ -527,7 +522,8 @@ margin-left: 10%;
 
   }
     @media only screen and (max-width: 320px) {
-     .top_img{
-      width: 200px;
+     .top_img {
+      weigth: 207px;
+      height: 118px;
      }
 }
