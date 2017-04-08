@@ -60,7 +60,8 @@ p span{
       margin-top: 20px;
   }
   .bg-4 {
-      background-color: #2f2f2f; /* Black Gray */
+      /*background-color: #2f2f2f;*/ /* Black Gray */
+      background-color: #2f2f3f;
       color: #fff;
   }
   .mid_text{
