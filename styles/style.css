@@ -372,7 +372,6 @@ margin-left: 10%;
   }
 
   .logo_img{
-
   }
 
   .ss_text_1 {
@@ -496,6 +495,11 @@ margin-left: 10%;
 
   p span{
      font: bold 13px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
+  }
+
+  .logo_img{
+    height: 40px;
+    margin: auto;
   }
 
 }
