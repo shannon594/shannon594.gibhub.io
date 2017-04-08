@@ -472,7 +472,7 @@ margin-left: 10%;
   .navbar-brand {
     padding:0px 10px 10px 40px;
     margin-top: -17px;
-    margin-left: -35px;
+    margin-left: -5px;
   }
           .navbar {
       padding-top: 10px;
@@ -530,9 +530,13 @@ margin-left: 10%;
   }
 
   }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 370px) {
      .top_img {
       weigth: 207px;
       height: 118px;
+     }
+     .container{
+padding-left: 0px;
+padding-right: 0px;
      }
 }
