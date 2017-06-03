@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: varelaRound;
-    src: url(//fonts.googleapis.com/css?family=Varela Round);
+    src: url(https://fonts.googleapis.com/css?family=Varela+Round);
 }
 
 body {
@@ -53,6 +53,7 @@ p span{
       /*background-color: #474e5d;*/ /* Dark Blue */
       background-color: #f7f7f7;
       color: #ffffff;
+      margin-top: 20px;
   }
   .bg-3 {
       background-color: #f7f7f7;
@@ -63,6 +64,7 @@ p span{
       /*background-color: #2f2f2f;*/ /* Black Gray */
       background-color: #2f2f3f;
       color: #fff;
+      margin-top: 20px;
   }
 
   .mid_text{
