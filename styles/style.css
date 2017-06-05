@@ -83,6 +83,14 @@ p span{
       border-radius: 15px 15px 0px 0px;
   }
 
+    .bg-toc{
+      background-color: #f7f7f7;
+      color: #555555;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+
+  }
+
   .mid_text{
     color:#3e3e7f;
     padding-top: 30px;
@@ -660,7 +668,7 @@ margin-left: 10%;
     margin-left: -45px;
   }
   .navbar-toggle{
-  margin-right: -15px;
+  margin-right: -12px;
 }
 
      .container {
