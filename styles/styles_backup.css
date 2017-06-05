@@ -32,7 +32,7 @@ p span{
 
   .container-fluid {
       padding-top: 20px;
-      /*padding-bottom: 20px;*/
+      padding-bottom: 20px;
       width: 1100px;
       position: relative;
   }
@@ -40,10 +40,6 @@ p span{
   .top_img {
         height: 130px;
         margin-top: -10px;
-  }
-
-  .main_head{
-    /*position: relative;*/
   }
   .margin {margin-bottom: 45px;}
 
@@ -68,10 +64,6 @@ p span{
       color: #555555;
       -moz-border-radius: 15px;
       border-radius: 15px;
-      padding: 5px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-
 
   }
   .bg-4 {
@@ -93,9 +85,7 @@ p span{
       padding-bottom: 10px;
   }
   .mid_body{
-      font-size: 18px;
-      padding-left: 20px;
-      padding-right: 20px;
+      font: 22px varelaRound;
   }
   .block_title{
       font: bold 28px caviarDreams;
@@ -105,28 +95,29 @@ p span{
   .block_text{
     padding-top: 20px;
     color:#3e3e7f;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .my_row{
     margin-top: -35px;
   }
 
   .navbar {
-      padding-bottom: 0px;
-      padding-top: 5px;
+      padding-top: 10px;
+      padding-bottom: 7px;
+      padding-left: 7%;
+      padding-right: 7%;
       border: 0;
       border-radius: 0;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       background-color: #ffffff;
     
-      /*margin-left: 15%;
-      margin-right: 15%;*/
+      margin-left: 15%;
+      margin-right: 15%;
+ 
+      font-size: 12px;
       
       letter-spacing: 5px;
       height: 110px;
-      font: 17px Montserrat, sans-serif;
+      font: 15px Montserrat, sans-serif;
       /*font: 15px caviarDreams, Montserrat, sans-serif;*/
       /* min-width: 990px; */
   }
@@ -140,8 +131,8 @@ p span{
     margin: 25px 15px 0px -15px;
     z-index: 9999;
     position: relative;
-    color: #3e3e7f;
-    background-color: #ffffff;
+      color: #3e3e7f;
+  background-color: #ffffff;
   }
 
   .navbar-brand {
@@ -162,7 +153,7 @@ p span{
   .navbar-collapse{
     border-top: none;
     margin-left: 20%;
-    /*margin-right: 20%;*/
+    margin-right: 20%;
   }
 
   .container{
@@ -236,6 +227,7 @@ p span{
 .page_title{
   color: black;
   font: bold 32px caviarDreams;
+
 }
 
 .inner_text{
@@ -263,9 +255,7 @@ p span{
         height: 130px;
         margin-top: -10px;
   }
-
   .margin {margin-bottom: 45px;}
-
   .bg-1 {
       background-color: #ce7485; /* Redish */
       color: #ffffff;
@@ -288,8 +278,7 @@ margin-top: 20px;
   }
   .container-fluid {
       padding-top: 20px;
-      /*padding-bottom: 70px;*/
-      padding-bottom: 0px;
+      padding-bottom: 70px;
       width: 1100px;
       position: relative;
   }
@@ -299,15 +288,23 @@ margin-top: 20px;
       padding-bottom: 30px;
   }
   .navbar {
-      padding-bottom: 12px;
+      padding-top: 10px;
+      padding-bottom: 7px;
+      padding-left: 7%;
+      padding-right: 7%;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      background-color: #ffffff;
     
-      /*margin-left: 15%;
-      margin-right: 15%;*/
+   margin-left: 5%;
+      margin-right: 5%;
+ 
+      font-size: 12px;
       
       letter-spacing: 5px;
       height: 110px;
       font: 15px Montserrat, sans-serif;
-      /*font: 15px caviarDreams, Montserrat, sans-serif;*/
       /* min-width: 990px; */
   }
   .navbar-nav  li a:hover {
@@ -336,7 +333,7 @@ margin-top: 20px;
   .navbar-collapse{
     border-top: none;
     margin-left: 10%;
-    /*margin-right: 10%;*/
+    margin-right: 10%;
   }
   .container{
     display: block;
@@ -405,8 +402,7 @@ margin-left: 10%;
     }
       .container-fluid {
       padding-top: 20px;
-      /*padding-bottom: 70px;*/
-      padding-bottom: 0px;
+      padding-bottom: 70px;
       width: 100%;
       position: relative;
   }
@@ -441,7 +437,7 @@ margin-left: 10%;
 }
     
       .navbar {
-      /*padding-top: 10px;
+      padding-top: 10px;
       padding-bottom: 7px;
       padding-left: 0px;
       padding-right: 0px;
@@ -452,15 +448,7 @@ margin-left: 10%;
       letter-spacing: 5px;
       height: 90px;
       margin-left: 0%;
-      margin-right: 0%;*/
-      padding-bottom: 12px;
-    
-      /*margin-left: 15%;
-      margin-right: 15%;*/
-      
-      letter-spacing: 5px;
-      height: 110px;
-      font: 16px Montserrat, sans-serif;
+      margin-right: 0%;
       z-index: 9999;
   }
   
@@ -528,25 +516,6 @@ margin-left: 10%;
   }
   
 }
-@media only screen and (max-width: 1010px){
-      .navbar {
-
-      font: 14px Montserrat, sans-serif;
-      letter-spacing: 3px;
-  }
-}
-
-@media only screen and (max-width: 900px){
-      .navbar {
-
-      font: 13px Montserrat, sans-serif;
-      letter-spacing: 3px;
-  }
-    .navbar-brand {
-    padding:0px 10px 10px 40px;
-    margin-left: -15px;
-  }
-}
 
 @media only screen and (max-width: 754px){
     .front_img {
@@ -554,9 +523,6 @@ margin-left: 10%;
   /*max-height:250px; */
   max-width:336px; 
   margin: auto;
-}
-.bg-3{
-  margin: 15px;
 }
 
   p span{
@@ -566,10 +532,7 @@ margin-left: 10%;
 }
 
 @media only screen and (max-width: 746px){
-    .navbar-brand {
-    padding:0px 10px 10px 40px;
-    margin-left: -25px;
-  }
+
 
 }
 
@@ -583,9 +546,6 @@ margin-left: 10%;
     height: 40px;
     margin: auto;
   }
-  .navbar-toggle{
-  margin-right: -5px;
-}
 
 }
 
@@ -597,11 +557,8 @@ margin-left: 10%;
   .navbar-brand {
     padding:0px 10px 10px 40px;
     margin-top: -17px;
-    margin-left: -30px;
+    margin-left: -5px;
   }
-  .navbar-toggle{
-  margin-right: -10px;
-}
           .navbar {
       padding-top: 10px;
       padding-bottom: 7px;
@@ -655,13 +612,6 @@ margin-left: 10%;
         weigth: 207px;
         height: 118px;
      }
-         .navbar-brand {
-    padding:0px 10px 10px 40px;
-    margin-left: -45px;
-  }
-  .navbar-toggle{
-  margin-right: -15px;
-}
 
      .container {
         padding-left: 0px;
