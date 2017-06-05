@@ -14,7 +14,20 @@ body {
       line-height: 1.8;
       color: #f5f6f7;
       font-size: 16px;
+      min-height: 100%;
+
   }
+
+  html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 p { 
     font-family: Helvetica, Sans-Serif;
@@ -130,6 +143,8 @@ p span{
   .my_row{
     margin-top: -35px;
   }
+
+
 
   .navbar {
       padding-bottom: 0px;
