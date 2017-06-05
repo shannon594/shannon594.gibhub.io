@@ -90,6 +90,7 @@ p span{
       -moz-border-radius: 15px;
       border-radius: 15px;
 
+
   }
       .bg-sample{
       background-color: #f7f7f7;
@@ -277,6 +278,13 @@ a.button {
     text-decoration: none;
     color: initial;
     text-align: center;
+}
+.arrow{
+    height: 64px;
+}
+
+h4.past{
+  font: 24px caviarDreams;
 }
 
 
