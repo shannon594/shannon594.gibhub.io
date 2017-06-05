@@ -18,6 +18,7 @@ body {
 
 p { 
     font-family: Helvetica, Sans-Serif;
+
   }
   
 p span{
@@ -90,6 +91,14 @@ p span{
       border-radius: 15px;
 
   }
+      .bg-sample{
+      background-color: #f7f7f7;
+      color: #555555;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+
+  }
+
 
   .mid_text{
     color:#3e3e7f;
@@ -241,13 +250,23 @@ p span{
 
 }
 
-.page_title{
+h2.page_title{
   color: black;
-  font: bold 32px caviarDreams;
+  font: 32px caviarDreams;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h3.page_title{
+  color: black;
+  font: 28px caviarDreams;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .inner_text{
   padding: 40px;
+  font-size: 22px;
 }
 
 a.button {
@@ -265,7 +284,8 @@ a.button {
 
   body {
       /*font: 20px Montserrat, sans-serif;*/
-      font-family: 'Varela Round', Helvetica, Sans-Serif;
+      /*font-family: 'Varela Round', Helvetica, Sans-Serif;*/
+      font-family: Helvetica, Sans-Serif;
       line-height: 1.8;
       color: #f5f6f7;
       font-size: 16px;
