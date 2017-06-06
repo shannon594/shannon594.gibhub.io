@@ -15,18 +15,12 @@ body {
       color: #f5f6f7;
       font-size: 16px;
       min-height: 100%;
+      height: 100%;
 
   }
 
-  html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+html{
+    height: 100%;
 }
 
 p { 
@@ -35,14 +29,17 @@ p {
   }
   
 p span{
-     color: white; 
-     font: bold 32px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-     letter-spacing: -1px; 
-     background: rgb(0, 0, 0); /* fallback color */
-     background: rgba(0, 0, 0, 0.2);
+     /*color: white; 
+     font: bold 32px caviarDreams; */
+     /*bold 24px/45px Helvetica, Sans-Serif; */
+     /*letter-spacing: -1px; 
+     background: rgb(0, 0, 0);*/ /* fallback color */
+     /*background: rgba(15, 0, 15, 0.2);
      padding: 10px; 
-     margin: -30px;
+     margin: -30px;*/
   }
+
+
 
   .container-fluid {
       padding-top: 20px;
@@ -50,6 +47,7 @@ p span{
       width: 1100px;
       position: relative;
   }
+
   
   .top_img {
         height: 130px;
@@ -59,7 +57,12 @@ p span{
   .main_head{
     /*position: relative;*/
   }
-  .margin {margin-bottom: 45px;}
+  .margin {margin-bottom: 15px;}
+
+  .not_footer{
+    height: 100%;
+    margin-bottom: -157px;
+  }
 
   .bg-1 {
       background-color: #ce7485;
@@ -95,7 +98,11 @@ p span{
       margin-top: 20px;
       -moz-border-radius: 15px 15px 0px 0px;
       border-radius: 15px 15px 0px 0px;
+      height: 137px;
   }
+
+
+
 
     .bg-toc{
       background-color: #f7f7f7;
@@ -143,8 +150,6 @@ p span{
   .my_row{
     margin-top: -35px;
   }
-
-
 
   .navbar {
       padding-bottom: 0px;
@@ -205,6 +210,10 @@ p span{
     /*margin-left: 10%;*/
     /*margin-right: 10%;*/
     }
+
+    .myslide{
+     -moz-border-radius: 5px;
+     border-radius: 5px;}
     
     .slide_img {
     /*position: absolute;*/
@@ -213,26 +222,58 @@ p span{
 
 }
 
-
+.title_pos{
+     position: absolute; 
+     top: 20%; 
+}
 
 .ss_text_1 {
   font-size: 40px;
-  position: absolute; 
-  top: 20%;
   color: rgb(0,0,0);
+}
+
+.ss_title_1 {
+     color: white;
+     font: bold 30px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
+     letter-spacing: -1px; 
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(62, 62, 127, 0.6);
+     padding: 10px; 
+     -moz-border-radius: 5px;
+     border-radius: 5px;
 }
 
 .ss_text_2 {
   font-size: 40px;
-  position: absolute; 
-  top: 20%;
   color: rgb(0,0,0);
+}
+
+.ss_title_2{
+     color: white;
+     font: bold 30px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
+     letter-spacing: -1px; 
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(127, 62, 62, 0.6);
+     padding: 10px; 
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     /*margin: -30px;*/
 }
 
 .ss_text_3 {
   font-size: 40px;
-  position: absolute; 
-  top: 20%;
+}
+
+.ss_title_3{
+     color: white;
+     font: bold 30px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
+     letter-spacing: -1px; 
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(62, 127, 62, 0.6);
+     padding: 10px; 
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+     /*margin: -30px;*/
 }
 
 .p_caption{
@@ -302,6 +343,9 @@ h4.past{
   font: 24px caviarDreams;
 }
 
+.issue_div{
+  padding: 20px;
+}
 
 @media only screen and (max-width: 1500px) {
 
@@ -317,16 +361,13 @@ h4.past{
   font-family: 'Varela Round';
   }
   
-  p span{
-     font: bold 30px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-  }
   
   .top_img {
         height: 130px;
         margin-top: -10px;
   }
 
-  .margin {margin-bottom: 45px;}
+  .margin {margin-bottom: 15px;}
 
   .bg-1 {
       background-color: #ce7485; /* Redish */
@@ -341,13 +382,10 @@ h4.past{
   }
   .bg-3 {
       background-color: #f7f7f7;
-color: #555555;
-margin-top: 20px;
+      color: #555555;
+      margin-top: 20px;
   }
-  .bg-4 {
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
+
   .container-fluid {
       padding-top: 20px;
       /*padding-bottom: 70px;*/
@@ -420,18 +458,9 @@ margin-left: 10%;
     
 }
 
-.ss_text_1 {
-
-}
-
-.ss_text_2 {
-
-}
-
-.ss_text_3 {
-
-
-}
+.ss_title_1{font: bold 28px caviarDreams;}
+.ss_title_2{font: bold 28px caviarDreams;}
+.ss_title_3{font: bold 28px caviarDreams;}
 
 .p_caption{
   font-size: 30px;
@@ -473,24 +502,13 @@ margin-left: 10%;
       position: relative;
   }
 
-  p span{
-     font: bold 22px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-  }
 
   .logo_img{
   }
 
-  .ss_text_1 {
-
-}
-
-.ss_text_2 {
- 
-}
-
-.ss_text_3 {
-
-}
+.ss_title_1{font: bold 24px caviarDreams;}
+.ss_title_2{font: bold 24px caviarDreams;}
+.ss_title_3{font: bold 24px caviarDreams;}
 
   .mid_text{
     color:#3e3e7f;
@@ -608,6 +626,10 @@ margin-left: 10%;
     padding:0px 10px 10px 40px;
     margin-left: -15px;
   }
+
+    .ss_title_1{font: bold 20px caviarDreams;}
+    .ss_title_2{font: bold 20px caviarDreams;}
+    .ss_title_3{font: bold 20px caviarDreams;}
 }
 
 @media only screen and (max-width: 754px){
@@ -621,9 +643,9 @@ margin-left: 10%;
   margin: 15px;
 }
 
-  p span{
-     font: bold 18px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-  }
+    .ss_title_1{font: bold 18px caviarDreams;}
+    .ss_title_2{font: bold 18px caviarDreams;}
+    .ss_title_3{font: bold 18px caviarDreams;}
 
 }
 
@@ -634,12 +656,13 @@ margin-left: 10%;
   }
 
 }
+@media only screen and (max-width: 600px){
+    .ss_title_1{font: bold 16px caviarDreams;}
+    .ss_title_2{font: bold 16px caviarDreams;}
+    .ss_title_3{font: bold 16px caviarDreams;}
+}
 
 @media only screen and (max-width: 554px){
-
-  p span{
-     font: bold 13px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-  }
 
   .logo_img{
     height: 40px;
@@ -649,13 +672,14 @@ margin-left: 10%;
   margin-right: -5px;
 }
 
+.ss_title_1{font: bold 14px caviarDreams;}
+.ss_title_2{font: bold 14px caviarDreams;}
+.ss_title_3{font: bold 14px caviarDreams;}
+
 }
 
   @media only screen and (max-width: 380px) {
 
-  p span{
-     font: bold 11px caviarDreams; /*bold 24px/45px Helvetica, Sans-Serif; */
-  }
   .navbar-brand {
     padding:0px 10px 10px 40px;
     margin-top: -17px;
