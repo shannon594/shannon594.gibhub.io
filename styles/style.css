@@ -214,13 +214,13 @@ p span{
     /*position: absolute;*/
     width: 1100px;
     position: relative;
-    -moz-border-radius: 10px;
-     border-radius: 10px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
   }
 
   .carousel-control{
-    -moz-border-radius: 10px;
-     border-radius: 10px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
   }
 
 .title_pos{
