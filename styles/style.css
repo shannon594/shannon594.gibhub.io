@@ -325,6 +325,8 @@ p span {
        /*margin: -30px;*/
 }
 
+
+
 .p_caption{
       font-size: 30px;
 }
@@ -393,6 +395,16 @@ h4.past{
 
 .issue_div{
   padding: 20px;
+}
+
+footer{
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.bottom_imgs{
+  max-height: 90px;
+
 }
 
 @media only screen and (max-width: 1500px) {
@@ -530,12 +542,6 @@ margin-left: 10%;
     
 }
 
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 }
 
@@ -682,7 +688,7 @@ margin-left: 10%;
 @media only screen and (max-width: 900px){
       .navbar {
 
-      font: 13px Montserrat, sans-serif;
+      /*font: 13px Montserrat, sans-serif;*/
       letter-spacing: 3px;
   }
     .navbar-brand {
@@ -700,6 +706,19 @@ margin-left: 10%;
     .text_pos{
      position: absolute; 
      top: 60%;   
+}
+}
+
+@media only screen and (max-width: 760px){
+
+footer{
+  line-height: 100%;
+  font-size: 14px;
+}
+
+.bottom_imgs{
+  max-height: 60px;
+
 }
 }
 
@@ -724,7 +743,7 @@ margin-left: 10%;
 
       .text_pos{
      position: absolute; 
-     top: 40%;   
+     top: 65%;   
 }
 
   .title_pos{
@@ -732,6 +751,13 @@ margin-left: 10%;
      top: 10%;   
 }
 
+.collapse{
+  width: 744px;
+}
+
+.navbar {
+  font-size: 18px;
+}
 
 }
 
@@ -759,6 +785,10 @@ margin-left: 10%;
     .ss_text_1{font: bold 14px caviarDreams;}
     .ss_text_2{font: bold 14px caviarDreams;}
     .ss_text_3{font: bold 14px caviarDreams;}
+.text_pos{
+     position: absolute; 
+     top: 55%;   
+}
 }
 
 @media only screen and (max-width: 554px){
@@ -803,18 +833,18 @@ margin-left: 10%;
       border: 0;
       border-radius: 0;
       margin-bottom: 10px;
-      font-size: 12px;
       letter-spacing: 5px;
       height: 90px;
-      margin-left: 0%;
-      margin-right: 0%;
+      /*margin-left: 0%;
+      margin-right: 0%;*/
       z-index: 9999;
   }
   
     .navbar-collapse{
     border-top: none;
-    margin-left: 0%;
-    margin-right: 0%;
+    /*margin-left: 0%;
+    margin-right: 0%;*/
+    margin-left: -6%;
     z-index: 9999;
   }
 
@@ -839,6 +869,14 @@ margin-left: 10%;
   .inscape_drop_items:focus{
   background-color: #ce7485;
   }
+  .text_pos{
+     position: absolute; 
+     top: 50%;   
+}
+
+    .ss_text_1{font: bold 10px caviarDreams;}
+    .ss_text_2{font: bold 10px caviarDreams;}
+    .ss_text_3{font: bold 10px caviarDreams;}
 
 
 }
@@ -860,4 +898,8 @@ margin-left: 10%;
         padding-left: 0px;
         padding-right: 0px;
      }
+  .text_pos{
+     position: absolute; 
+     top: 45%;   
+}
 }
