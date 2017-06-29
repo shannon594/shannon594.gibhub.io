@@ -407,6 +407,11 @@ footer{
 
 }
 
+.past_iss_img{
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+}
+
 @media only screen and (max-width: 1500px) {
 
   body {
