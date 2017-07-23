@@ -161,9 +161,9 @@ p span {
       /*margin-left: 15%;
       margin-right: 15%;*/
       
-      letter-spacing: 5px;
+      letter-spacing: 4px;
       height: 110px;
-      font: 18px Montserrat, sans-serif;
+      font: 17px Montserrat, sans-serif;
       /*font: 15px caviarDreams, Montserrat, sans-serif;*/
       /* min-width: 990px; */
 }
@@ -470,9 +470,9 @@ footer{
       /*margin-left: 15%;
       margin-right: 15%;*/
       
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       height: 110px;
-      font: 15px Montserrat, sans-serif;
+      font: 16px Montserrat, sans-serif;
       /*font: 15px caviarDreams, Montserrat, sans-serif;*/
       /* min-width: 990px; */
   }
@@ -552,6 +552,7 @@ margin-left: 10%;
 
 }
 
+
   
   @media only screen and (max-width: 1133px) {
     .bg-1 {
@@ -590,26 +591,11 @@ margin-left: 10%;
 }
     
       .navbar {
-      /*padding-top: 10px;
-      padding-bottom: 7px;
-      padding-left: 0px;
-      padding-right: 0px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 10px;
-      font-size: 12px;
-      letter-spacing: 5px;
-      height: 90px;
-      margin-left: 0%;
-      margin-right: 0%;*/
-      padding-bottom: 12px;
-    
-      /*margin-left: 15%;
-      margin-right: 15%;*/
+
       
       letter-spacing: 5px;
       height: 110px;
-      font: 16px Montserrat, sans-serif;
+      font: 14px Montserrat, sans-serif;
       z-index: 9999;
   }
   
@@ -681,7 +667,7 @@ margin-left: 10%;
       .navbar {
 
       font: 14px Montserrat, sans-serif;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
   }
 }
 
@@ -690,13 +676,19 @@ margin-left: 10%;
     padding-left: 140px;
     padding-right: 140px;}
 
+   .navbar {
+
+      font: 12px Montserrat, sans-serif;
+      letter-spacing: 1px;
+  }
+
 }
 
 @media only screen and (max-width: 900px){
       .navbar {
 
-      /*font: 13px Montserrat, sans-serif;*/
-      letter-spacing: 3px;
+      font: 11px Montserrat, sans-serif;
+
   }
     .navbar-brand {
     padding:0px 10px 10px 40px;
@@ -714,6 +706,13 @@ margin-left: 10%;
      position: absolute; 
      top: 60%;   
 }
+}
+@media only screen and (max-width: 850px){
+  .navbar {
+
+      font: 11px Montserrat, sans-serif;
+
+  }
 }
 
 @media only screen and (max-width: 760px){
